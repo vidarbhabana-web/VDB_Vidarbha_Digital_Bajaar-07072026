@@ -33,3 +33,8 @@ jobs:
         with:
           name: VDB-Debug-APK
           path: app/build/outputs/apk/debug/app-debug.apk
+      - name: Verify APK Exists
+        run: ls -R app/build/outputs/apk/
+
+      - name: Build Summary
+        run: echo "✅ VDB Android APK Build Completed Successfully!"
