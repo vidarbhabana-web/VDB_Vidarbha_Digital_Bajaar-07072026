@@ -1,0 +1,6 @@
+{
+  "name": "VDB Digital",
+  "description": "Vidarbha Digital Bajaar (VDB) - Digitally empowering local businesses, farmers, and creators across Vidarbha with premium listings, AI growth tools, local services, and delivery tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
