@@ -25,3 +25,11 @@ jobs:
 
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v3
+      - name: Build Debug APK
+        run: ./gradlew assembleDebug
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: VDB-Debug-APK
+          path: app/build/outputs/apk/debug/app-debug.apk
